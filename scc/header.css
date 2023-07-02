@@ -1,0 +1,56 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__item {
+  display: flex;
+}
+.header__nav {
+  margin-left: 35px;
+}
+.header__nav:first-child {
+  margin-left: 0;
+}
+.header__nav a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+.header__nav--two a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+.header__nav--two {
+  margin-left: 35px;
+}
+.header__svg {
+  cursor: pointer;
+}
+.header__icons {
+  display: flex;
+}
+.header__icon {
+  cursor: pointer;
+}
+.header__icon--two {
+  margin-left: 28px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=header.css.map */

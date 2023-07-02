@@ -1,0 +1,81 @@
+.footer {
+  padding-top: 44px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #DCE5E2;
+  padding-right: 74px;
+  padding-bottom: 78px;
+}
+.footer__body {
+  max-width: 290px;
+}
+.footer__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-top: 18px;
+}
+.footer__title {
+  margin-bottom: 20px;
+}
+.footer__title a {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  text-decoration: none;
+}
+.footer__title a:hover {
+  text-decoration: underline;
+}
+.footer__subtitle {
+  margin-bottom: 14px;
+}
+.footer__subtitle:last-child {
+  margin-bottom: 0;
+}
+.footer__subtitle a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  text-decoration: none;
+}
+.footer__subtitle a:hover {
+  text-decoration: underline;
+}
+.footer__inner-two {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 52px;
+}
+.footer__span {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.footer__span-two {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.footer__svg {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,36 @@
+.footer {
+  padding-top: 44pc;
+  padding-bottom: 75px;
+}
+.footer__inner {
+  display: flex;
+}
+.footer__body {
+  max-width: 290px;
+}
+.footer__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.footer__title {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+.footer__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,32 @@
+
+* {padding: 0;margin: 0;border: 0;}
+
+:focus,:active {outline: none;}
+
+a:focus,a:active {outline: none;}
+
+nav,footer,header,aside,section,main {display: block;}
+
+html,body {width: 100%;height: 100%;}
+
+input,button,textarea {font-family: inherit;}
+
+button {cursor: pointer;}
+
+a,a:visited {text-decoration: none;}
+
+a:hover {text-decoration: none;}
+
+ul li {list-style: none;}
+
+img {vertical-align: top;}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+  }
+  
+h1,h2,h3,h4,h5,h6,p {
+   font-size: inherit;
+   font-weight: inherit;
+   line-height: inherit;
+}

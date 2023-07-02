@@ -1,0 +1,141 @@
+.slider {
+  padding-top: 28px;
+}
+.slider__item {
+  width: 1294px;
+  height: 540px;
+  background-color: #DCE5E2;
+  margin: 0 auto;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.slider__item2 {
+  width: 1294px;
+  height: 540px;
+  background-color: #b3f0dc;
+  margin: 0 auto;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.slider__item3 {
+  width: 1294px;
+  height: 540px;
+  background-color: #eacdf3;
+  margin: 0 auto;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.slider__btnPrev, .slider__btnNext {
+  font-size: 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  background-color: transparent;
+}
+.slider__btnPrev::after, .slider__btnNext::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-top: 2px solid #000000;
+  border-left: 2px solid #000000;
+}
+.slider__btnPrev {
+  left: 20px;
+  transform: rotate(-45deg);
+}
+.slider__btnNext {
+  right: 20px;
+  transform: rotate(135deg);
+}
+.slider__body {
+  padding-top: 145px;
+  padding-left: 50px;
+  max-width: 606px;
+  position: relative;
+}
+.slider__img {
+  position: absolute;
+  top: 38px;
+  right: 0;
+}
+.slider__img img {
+  width: 590px;
+}
+.slider__img-two {
+  position: absolute;
+  top: 55px;
+  right: 70px;
+}
+.slider__img-two img {
+  width: 430px;
+}
+.slider__title {
+  font-family: "Readex Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+}
+.slider__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  max-width: 565px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.slider__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 14px 53px;
+  border: 1px solid #000000;
+  max-width: 170px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.slider__subtitle:hover {
+  box-shadow: 2px 2px 10px 1px;
+}
+.slider__bottom {
+  display: flex;
+  position: absolute;
+  z-index: 10;
+  top: 85%;
+  left: 28%;
+}
+.slider__border--bottom-one {
+  border-bottom: 2px solid #000000;
+  width: 192px;
+}
+.slider__border--bottom-two {
+  border-bottom: 2px solid #000000;
+  width: 192px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.slider__border--bottom-three {
+  border-bottom: 2px solid #000000;
+  width: 192px;
+}
+.slider__span {
+  color: transparent;
+}
+
+/*# sourceMappingURL=slider.css.map */

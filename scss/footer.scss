@@ -1,0 +1,93 @@
+.footer {
+    padding-top: 44px;
+    
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #DCE5E2;
+        padding-right: 74px;
+        padding-bottom: 78px;
+    }
+    
+    &__body {
+        max-width: 290px;
+    }
+
+    &__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        margin-top: 18px;
+    }
+
+    &__title {
+        margin-bottom: 20px;
+    }
+    
+    &__title a {
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #000000;
+        text-decoration: none;
+    
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__subtitle {
+        margin-bottom: 14px;
+    
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    
+    &__subtitle a {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 22px;
+        color: #000000;
+        text-decoration: none;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__inner-two {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 52px;
+    }
+
+    &__span {
+        font-family: 'Readex Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+    
+    &__span-two {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+    
+    &__svg {
+        cursor: pointer;
+    }
+}

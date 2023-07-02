@@ -1,0 +1,134 @@
+.gadgets {
+  padding-top: 50px;
+  padding-bottom: 20px;
+    
+    &__search {
+        position: relative;
+    }
+  
+    &__input {
+       padding: 20px 476px 20px 64px;
+       background: #F8F9FA;
+       width: 650px;
+       border-radius: 30px;
+       margin: 24px auto 0;
+       border: 1px solid #C5C5C5;
+    }
+
+    &__input input {
+        background: #F8F9FA;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 20px;
+        left: 345px;
+        cursor: pointer;
+    }
+
+    &__iphone {
+       text-align: center;
+       margin-top: 20px;
+       margin-bottom: 25px;
+    }
+    
+    &__iphone span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        padding: 12px 22px;
+        border: 1px solid #C5C5C5;
+        border-radius: 20px;
+        cursor: pointer;
+    
+        &:hover {
+            box-shadow: 1px 1px 20px 1px;
+        }
+    }
+    
+    &__mobile {
+       text-align: center;
+    }
+
+    &__mobile span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+        padding: 12px 22px;
+        border: 1px solid #C5C5C5;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all .1s;
+        
+        &:hover {
+            box-shadow: 1px 1px 20px 1px;
+        }
+    }
+
+    &__body {
+        margin: 68px auto 0;
+        max-width: 935px;
+        background: #DCE5E2;
+        padding: 45px 0;
+    }
+
+    &__text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #000000;
+        margin-top: 10px;
+    }
+
+    &__img {
+        margin: 15px auto;
+        max-width: 230px;
+        cursor: pointer;
+    }
+
+    &__form {
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        
+        &__input {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #000000;
+            background: #DCE5E2;
+            border: 1px solid #000000;
+            border-radius: 54px 0px 0px 54px;
+        
+            &:focus {
+                background: #ffe;
+            }
+        }
+
+        &__btn {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #FFFFFF;
+            background: #000000;
+            padding: 16px 32px;
+            border-radius: 0px 200px 200px 0px;
+        }
+    }
+}

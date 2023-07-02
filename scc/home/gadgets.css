@@ -1,0 +1,119 @@
+.gadgets {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.gadgets__search {
+  position: relative;
+}
+.gadgets__input {
+  padding: 20px 476px 20px 64px;
+  background: #F8F9FA;
+  width: 650px;
+  border-radius: 30px;
+  margin: 24px auto 0;
+  border: 1px solid #C5C5C5;
+}
+.gadgets__input input {
+  background: #F8F9FA;
+}
+.gadgets__icon {
+  position: absolute;
+  top: 20px;
+  left: 345px;
+  cursor: pointer;
+}
+.gadgets__iphone {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.gadgets__iphone span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  padding: 12px 22px;
+  border: 1px solid #C5C5C5;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.gadgets__iphone span:hover {
+  box-shadow: 1px 1px 20px 1px;
+}
+.gadgets__mobile {
+  text-align: center;
+}
+.gadgets__mobile span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  padding: 12px 22px;
+  border: 1px solid #C5C5C5;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.gadgets__mobile span:hover {
+  box-shadow: 1px 1px 20px 1px;
+}
+.gadgets__body {
+  margin: 68px auto 0;
+  max-width: 935px;
+  background: #DCE5E2;
+  padding: 45px 0;
+}
+.gadgets__text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+}
+.gadgets__img {
+  margin: 15px auto;
+  max-width: 230px;
+  cursor: pointer;
+}
+.gadgets__form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.gadgets__form__input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  background: #DCE5E2;
+  border: 1px solid #000000;
+  border-radius: 54px 0px 0px 54px;
+}
+.gadgets__form__input:focus {
+  background: #ffe;
+}
+.gadgets__form__btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #000000;
+  padding: 16px 32px;
+  border-radius: 0px 200px 200px 0px;
+}
+
+/*# sourceMappingURL=gadgets.css.map */

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap');
+
+@import 'header';
+@import 'home/slider';
+@import 'home/shop';
+@import 'home/showcase';
+@import 'home/gadgets';
+@import 'footer';
+
+body {
+   font-family: 'Inter', 'Readex Pro', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   background: #F5F5F5;
+}
+
+.container {
+    max-width: 1294px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
