@@ -1,7 +1,13 @@
 .header {
     padding-top: 30px;
     padding-bottom: 30px;
-
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F5F5F5;
+    
     &__inner {
         display: flex;
         justify-content: space-between;

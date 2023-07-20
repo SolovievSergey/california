@@ -1,5 +1,6 @@
 .slider {
-  padding-top: 28px;
+  padding-top: 100px;
+  position: relative;
 }
 .slider__item {
   width: 1294px;
@@ -136,6 +137,72 @@
 }
 .slider__span {
   color: transparent;
+}
+.slider__item {
+  -webkit-animation-name: slider__item;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slider__item;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes slider__item {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slider__item {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slider__item2 {
+  -webkit-animation-name: slider__item2;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slider__item2;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes slider__item2 {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slider__item2 {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slider__item3 {
+  -webkit-animation-name: slider__item3;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slider__item3;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes slider__item3 {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slider__item3 {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=slider.css.map */

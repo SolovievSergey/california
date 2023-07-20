@@ -1,7 +1,8 @@
 .slider {
-   padding-top: 28px;
-   
-    &__item {
+   padding-top: 100px;
+   position: relative;
+    
+   &__item {
         width: 1294px;
         height: 540px;
         background-color: #DCE5E2; 
@@ -156,5 +157,57 @@
 
     &__span {
         color: transparent;
+    }
+
+    // Затухающая анимация
+    &__item {
+        -webkit-animation-name: slider__item;
+        -webkit-animation-duration: 1.5s;
+        animation-name: slider__item;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes slider__item {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    
+    @keyframes  slider__item {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    
+    &__item2 {
+        -webkit-animation-name: slider__item2;
+        -webkit-animation-duration: 1.5s;
+        animation-name: slider__item2;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes slider__item2 {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    
+    @keyframes  slider__item2 {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    
+    &__item3 {
+        -webkit-animation-name: slider__item3;
+        -webkit-animation-duration: 1.5s;
+        animation-name: slider__item3;
+        animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes slider__item3 {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+    
+    @keyframes  slider__item3 {
+        from {opacity: .4}
+        to {opacity: 1}
     }
 }
